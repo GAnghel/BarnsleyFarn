@@ -1,0 +1,28 @@
+#include <windows.h>
+ICON1 ICON DISCARDABLE "Farn.ico"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION    	1,0,0,0
+PRODUCTVERSION 	1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704E4"
+        BEGIN
+            VALUE "CompanyName",      "$h@d0WFoXx"
+            VALUE "FileDescription",  "Barnsley-Farn"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "Farn"
+            VALUE "OriginalFilename", "Farn.exe"
+            VALUE "ProductName",      "Farn"
+            VALUE "ProductVersion",   "1.0.0.0"
+			VALUE "LegalCopyright", "©2012, $h@d0WFoXx"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0407, 1252
+
+    END
+END
+
